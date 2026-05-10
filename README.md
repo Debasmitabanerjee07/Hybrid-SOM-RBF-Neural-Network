@@ -25,12 +25,13 @@ for customer segmentation and prediction.
 - NumPy
 - Matplotlib
 - Pandas
-##   Key Feature: Data Leakage Prevention
-A critical aspect of this project is the strict prevention of data leakage
-. While "Spending Score is included as a feature during SOM training only so the map can learn customer topology across all three dimensions. It is fully excluded from the RBF prediction input to prevent data leakage."
 
- it was completely excluded from the input features for the RBF prediction stage
-. This ensures the model's performance reflects its ability to generalize to new, real-world data
+##   Key Feature: Data Leakage Prevention
+A critical aspect of this project is the strict prevention of data leakage.
+Spending Score is included as a feature during SOM training only, so the map 
+can learn customer topology across all three dimensions. It is fully excluded 
+from the RBF prediction input — ensuring the model genuinely generalizes to 
+new data where spending behaviour is unknown.
 
 ##   Results & Evaluation
 The model demonstrates meaningful predictive capability using only two raw attributes (Age and Annual Income):
