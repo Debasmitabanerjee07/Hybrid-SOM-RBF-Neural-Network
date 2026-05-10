@@ -42,5 +42,6 @@ Mall Customers Dataset
 ## Author
 Debasmita Banerjee
 
-2nd yr. Bsc.Data Science
+2nd yr. student of Bsc.Data Science
+
 Bhawanipur Global Campus 
