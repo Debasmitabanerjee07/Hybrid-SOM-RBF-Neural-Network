@@ -28,9 +28,9 @@ for customer segmentation and prediction.
 
 ##   Key Feature: Data Leakage Prevention
 A critical aspect of this project is the strict prevention of data leakage.
-Spending Score is included as a feature during SOM training only, so the map 
-can learn customer topology across all three dimensions. It is fully excluded 
-from the RBF prediction input — ensuring the model genuinely generalizes to 
+Spending Score is included as a feature during SOM training only, so the map
+can learn customer topology across all three dimensions. It is fully excluded
+from the RBF prediction input — ensuring the model genuinely generalizes to
 new data where spending behaviour is unknown.
 
 ##   Results & Evaluation
