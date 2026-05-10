@@ -36,6 +36,9 @@ The model demonstrates meaningful predictive capability using only two raw attri
 - RMSE: 14.54 (Predictions are off by ~14.5 points on a 1-100 scale).
 - MSE: 211.53.
 The Actual vs. Predicted visualization shows a clear positive trend along the ideal diagonal, confirming that the hybrid architecture successfully learned the relationship between customer demographics and spending behavior
+
+<img width="897" height="852" alt="image" src="https://github.com/user-attachments/assets/8aecedef-9414-42ac-be7c-74c01a37727c" />
+
 ## Dataset
 Mall Customers Dataset
 
