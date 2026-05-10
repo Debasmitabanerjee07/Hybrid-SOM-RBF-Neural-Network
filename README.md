@@ -27,7 +27,9 @@ for customer segmentation and prediction.
 - Pandas
 ##   Key Feature: Data Leakage Prevention
 A critical aspect of this project is the strict prevention of data leakage
-. While the target "Spending Score" was used during the initial unsupervised SOM phase to help identify natural clusters, it was completely excluded from the input features for the RBF prediction stage
+. While "Spending Score is included as a feature during SOM training only so the map can learn customer topology across all three dimensions. It is fully excluded from the RBF prediction input to prevent data leakage."
+
+ it was completely excluded from the input features for the RBF prediction stage
 . This ensures the model's performance reflects its ability to generalize to new, real-world data
 
 ##   Results & Evaluation
@@ -42,6 +44,13 @@ The Actual vs. Predicted visualization shows a clear positive trend along the id
 
 ## Dataset
 Mall Customers Dataset
+
+## How to Run
+1. Clone this repository
+2. Install dependencies:
+   pip install pandas numpy matplotlib seaborn scikit-learn minisom scipy
+3. Open Hybrid_SOM_RBF_Customer_Segmentation.ipynb in Jupyter or Google Colab
+4. Run all cells in order
 
 ## Author
 Debasmita Banerjee
