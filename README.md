@@ -39,8 +39,6 @@ The Actual vs. Predicted visualization shows a clear positive trend along the id
 ## Dataset
 Mall Customers Dataset
 
-## Results
-The hybrid SOM-RBF model successfully identified customer patterns and achieved meaningful prediction performance.
-
 ## Author
 Debasmita Banerjee
+Bhawanipur Global Campus- 2nd yr. Bsc.Data Science
