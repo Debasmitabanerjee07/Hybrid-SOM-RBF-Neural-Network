@@ -38,6 +38,7 @@ The model demonstrates meaningful predictive capability using only two raw attri
 The Actual vs. Predicted visualization shows a clear positive trend along the ideal diagonal, confirming that the hybrid architecture successfully learned the relationship between customer demographics and spending behavior
 
 <img width="897" height="852" alt="image" src="https://github.com/user-attachments/assets/8aecedef-9414-42ac-be7c-74c01a37727c" />
+<img width="922" height="647" alt="image" src="https://github.com/user-attachments/assets/74b3d3bb-72a5-44ed-905c-e684093d7775" />
 
 ## Dataset
 Mall Customers Dataset
